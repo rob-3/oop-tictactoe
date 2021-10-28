@@ -138,6 +138,7 @@ public class GameManager {
 		}
 		System.out.println("Game is over!");
 		System.out.println("The winner is player " + (isGameOver() == GameState.Player1Victory ? "1!" : "2!"));
+		printBoard();
 	}
 
 	public static void main(String... args) {
